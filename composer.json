@@ -4,21 +4,14 @@
     "description": "Islandora project to deploy with demo install profile.",
     "repositories" : [
         {
-            "type": "package",
-            "package": {
-                "name": "Islandora-Devops/islandora_starter_theme",
-                "version": "dev-main",
-                "type": "drupal-theme",
-                "source": {
-                    "url": "https://github.com/Islandora-Devops/islandora_starter_theme.git",
-                    "type": "git",
-                    "reference": "composer-fix"
-                }
-            }
+            "type": "vcs",
+            "url": "https://github.com/Islandora-Devops/islandora_starter_theme.git",
+	    "no-api": true
         },
         {
             "type": "git",
-            "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git"
+            "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
+	    "no-api": true
         },
         {
             "type": "composer",
