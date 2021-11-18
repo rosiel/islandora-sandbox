@@ -4,6 +4,12 @@
     "description": "Islandora project to deploy with demo install profile.",
     "repositories" : [
         {
+                "type": "vcs",
+                "url": "https://github.com/Islandora-Devops/islandora_base_theme.git",
+            "no-api": true
+            },
+
+        {
             "type": "vcs",
             "url": "https://github.com/Islandora-Devops/islandora_starter_theme.git",
 	    "no-api": true
