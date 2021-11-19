@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b09de2e431a0517cb680436f95a8f116",
+    "content-hash": "7ac51f194d0e0a19f6219c8019028062",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2249,6 +2249,58 @@
             "time": "2020-10-27T21:46:55+00:00"
         },
         {
+            "name": "drupal/addtoany",
+            "version": "1.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/addtoany.git",
+                "reference": "8.x-1.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/addtoany-8.x-1.15.zip",
+                "reference": "8.x-1.15",
+                "shasum": "0edb0e2fb5fe1f3be551fb2f2c36144cefaf86a9"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.15",
+                    "datestamp": "1616653854",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "AddToAny",
+                    "homepage": "https://www.drupal.org/user/2640913"
+                },
+                {
+                    "name": "micropat",
+                    "homepage": "https://www.drupal.org/user/260224"
+                }
+            ],
+            "description": "Share buttons for Drupal including the AddToAny universal share button, Facebook, Twitter, Pinterest, WhatsApp and many more.",
+            "homepage": "https://www.drupal.org/project/addtoany",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/addtoany",
+                "issues": "https://www.drupal.org/project/issues/addtoany"
+            }
+        },
+        {
             "name": "drupal/admin_toolbar",
             "version": "3.0.3",
             "source": {
@@ -2518,6 +2570,107 @@
             }
         },
         {
+            "name": "drupal/block_class",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/block_class.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/block_class-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "29cfdb646ef83210f0eced30b38243339158fe3f"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1615217722",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Todd Nienkerk",
+                    "homepage": "https://www.drupal.org/u/todd-nienkerk",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Renato Gonçalves (RenatoG)",
+                    "homepage": "https://www.drupal.org/u/RenatoG",
+                    "email": "renatog@ciandt.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Neslee Canil Pinto",
+                    "homepage": "https://www.drupal.org/u/neslee-canil-pinto",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Aaron Stanush",
+                    "homepage": "https://www.drupal.org/u/aaron-stanush",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "David Suissa (DYdave)",
+                    "homepage": "https://www.drupal.org/u/DYdave",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Four Kitchens",
+                    "homepage": "https://www.drupal.org/user/358502",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "berenddeboer",
+                    "homepage": "https://www.drupal.org/u/berenddeboer",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "elliotttf",
+                    "homepage": "https://www.drupal.org/u/elliotttf",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Michal Minecki (mirzu)",
+                    "homepage": "https://www.drupal.org/u/mirzu",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Patrick Coffey (pcoffey)",
+                    "homepage": "https://www.drupal.org/u/pcoffey",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Taylor Smith (tsmith512)",
+                    "homepage": "https://www.drupal.org/u/tsmith512",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Allows assigning classes to Blocks.",
+            "homepage": "https://www.drupal.org/project/block_class",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/block_class",
+                "issues": "https://www.drupal.org/project/issues/block_class",
+                "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
             "name": "drupal/bootstrap_barrio",
             "version": "dev-5.x",
             "source": {
@@ -2608,6 +2761,54 @@
             "homepage": "http://drupal.org/project/bootstrap_sass",
             "support": {
                 "source": "https://git.drupalcode.org/project/bootstrap_sass"
+            }
+        },
+        {
+            "name": "drupal/condition_query",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/condition_query.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/condition_query-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "74fd60d17481ee80ccd1a313b26e152dbbccc83c"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1622772816",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "dww",
+                    "homepage": "https://www.drupal.org/user/46549"
+                },
+                {
+                    "name": "logan.H",
+                    "homepage": "https://www.drupal.org/user/629136"
+                }
+            ],
+            "description": "Adds condition plugin by query parameter",
+            "homepage": "https://www.drupal.org/project/condition_query",
+            "support": {
+                "source": "https://git.drupalcode.org/project/condition_query"
             }
         },
         {
@@ -5053,6 +5254,55 @@
             ]
         },
         {
+            "name": "drupal/fixed_block_content",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/fixed_block_content.git",
+                "reference": "8.x-1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/fixed_block_content-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "567351ee7a1f40b43ff81ede9afc085f78752d20"
+            },
+            "require": {
+                "drupal/core": "~8.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.1",
+                    "datestamp": "1585994766",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Manuel Adan",
+                    "homepage": "https://www.drupal.org/user/516420",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Provides fixed placements for custom blocks.",
+            "homepage": "http://drupal.org/project/fixed_block_content",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://cgit.drupalcode.org/fixed_block_content",
+                "issues": "https://drupal.org/project/issues/fixed_block_content"
+            }
+        },
+        {
             "name": "drupal/flysystem",
             "version": "2.0.0-beta1",
             "source": {
@@ -5194,6 +5444,103 @@
             }
         },
         {
+            "name": "drupal/form_options_attributes",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/form_options_attributes.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/form_options_attributes-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "b2064d2a3369d9c89e5a8acaf13ac7987b75c354"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1591035322",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "zengenuity",
+                    "homepage": "https://www.drupal.org/user/326925"
+                }
+            ],
+            "description": "Allows form options for select, checkboxes, and radio elements to have individual attributes.",
+            "homepage": "https://www.drupal.org/project/form_options_attributes",
+            "support": {
+                "source": "https://git.drupalcode.org/project/form_options_attributes"
+            }
+        },
+        {
+            "name": "drupal/formatter_suite",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/formatter_suite.git",
+                "reference": "8.x-1.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/formatter_suite-8.x-1.3.zip",
+                "reference": "8.x-1.3",
+                "shasum": "ac7bd151141e4b362d02744e8ea125d7e6919af2"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.3",
+                    "datestamp": "1595830765",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "nadeau",
+                    "homepage": "https://www.drupal.org/user/103422"
+                },
+                {
+                    "name": "toamit",
+                    "homepage": "https://www.drupal.org/user/2820523"
+                }
+            ],
+            "description": "Field formaters to present numbers, text, links, etc.",
+            "homepage": "https://www.drupal.org/project/formatter_suite",
+            "keywords": [
+                "Drupal",
+                "Format"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/formatter_suite",
+                "issues": "http://drupal.org/project/issues/formatter_suite"
+            }
+        },
+        {
             "name": "drupal/geolocation",
             "version": "3.7.0",
             "source": {
@@ -5310,7 +5657,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/groupmedia.git",
-                "reference": "13786223166266d1cef67ceb6ffc168b52dc6834"
+                "reference": "a66a984a70e930856b2172460ec353a8f4dbe755"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9",
@@ -5326,8 +5673,8 @@
                     "dev-2.x": "2.x-dev"
                 },
                 "drupal": {
-                    "version": "8.x-2.0-alpha10+2-dev",
-                    "datestamp": "1627293428",
+                    "version": "8.x-2.0-alpha10+3-dev",
+                    "datestamp": "1628583705",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -7221,6 +7568,58 @@
             }
         },
         {
+            "name": "drupal/term_condition",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/term_condition.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/term_condition-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "ae28cb55e8ee01dcef86e287fc86645ee44b0ade"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1606865672",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "DanielVeza",
+                    "homepage": "https://www.drupal.org/user/3362504"
+                },
+                {
+                    "name": "jazzslider",
+                    "homepage": "https://www.drupal.org/user/430722"
+                }
+            ],
+            "description": "Provides a Condition plugin which checks to see if a node references a particular taxonomy term.",
+            "homepage": "https://www.drupal.org/project/term_condition",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/term_condition",
+                "issues": "http://drupal.org/project/issues/term_condition"
+            }
+        },
+        {
             "name": "drupal/title_field_for_manage_display",
             "version": "2.0.0",
             "source": {
@@ -8187,35 +8586,42 @@
         },
         {
             "name": "easyrdf/easyrdf",
-            "version": "0.9.1",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/easyrdf/easyrdf.git",
-                "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566"
+                "reference": "c7b0a9dbcb211eb7de03ee99ff5b52d17f2a8e64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easyrdf/easyrdf/zipball/acd09dfe0555fbcfa254291e433c45fdd4652566",
-                "reference": "acd09dfe0555fbcfa254291e433c45fdd4652566",
+                "url": "https://api.github.com/repos/easyrdf/easyrdf/zipball/c7b0a9dbcb211eb7de03ee99ff5b52d17f2a8e64",
+                "reference": "c7b0a9dbcb211eb7de03ee99ff5b52d17f2a8e64",
                 "shasum": ""
             },
             "require": {
+                "ext-dom": "*",
                 "ext-mbstring": "*",
                 "ext-pcre": "*",
-                "php": ">=5.2.8"
+                "ext-xmlreader": "*",
+                "lib-libxml": "*",
+                "php": ">=7.1.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~3.5",
-                "sami/sami": "~1.4",
-                "squizlabs/php_codesniffer": "~1.4.3"
+                "code-lts/doctum": "^5",
+                "ml/json-ld": "~1.0",
+                "phpunit/phpunit": "^7",
+                "semsol/arc2": "^2.4",
+                "squizlabs/php_codesniffer": "3.*",
+                "zendframework/zend-http": "~2.3"
             },
             "suggest": {
-                "ml/json-ld": "~1.0"
+                "ml/json-ld": "~1.0",
+                "semsol/arc2": "~2.2"
             },
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "EasyRdf_": "lib/"
+                "psr-4": {
+                    "EasyRdf\\": "lib"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -8232,6 +8638,7 @@
                 {
                     "name": "Alexey Zakhlestin",
                     "email": "indeyets@gmail.com",
+                    "homepage": "http://indeyets.ru/",
                     "role": "Developer"
                 }
             ],
@@ -8247,11 +8654,10 @@
             ],
             "support": {
                 "forum": "http://groups.google.com/group/easyrdf/",
-                "irc": "irc://chat.freenode.net/easyrdf",
-                "issues": "http://github.com/njh/easyrdf/issues",
-                "source": "https://github.com/easyrdf/easyrdf/tree/0.9.1"
+                "issues": "http://github.com/easyrdf/easyrdf/issues",
+                "source": "https://github.com/easyrdf/easyrdf/tree/1.1.1"
             },
-            "time": "2015-02-27T09:45:49+00:00"
+            "time": "2020-12-02T08:47:31+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -8830,29 +9236,29 @@
         },
         {
             "name": "islandora/chullo",
-            "version": "1.0.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora/chullo.git",
-                "reference": "fc60e9c271c4f83290b3a98ad46825a7e418d51e"
+                "reference": "d563d5e48ef9b15dcf45029277bbc2f6eeef2454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Islandora/chullo/zipball/fc60e9c271c4f83290b3a98ad46825a7e418d51e",
-                "reference": "fc60e9c271c4f83290b3a98ad46825a7e418d51e",
+                "url": "https://api.github.com/repos/Islandora/chullo/zipball/d563d5e48ef9b15dcf45029277bbc2f6eeef2454",
+                "reference": "d563d5e48ef9b15dcf45029277bbc2f6eeef2454",
                 "shasum": ""
             },
             "require": {
-                "easyrdf/easyrdf": "^0.9.1",
+                "easyrdf/easyrdf": "^0.9 || ^1",
                 "guzzlehttp/guzzle": "^6.1.0",
                 "ml/json-ld": "^1.0.4",
-                "php": ">=5.6.0"
+                "php": "^7.3 || ^7.4"
             },
             "require-dev": {
                 "mockery/mockery": "^0.9",
-                "phpunit/phpunit": "^5.0",
-                "sebastian/phpcpd": "^3.0",
-                "squizlabs/php_codesniffer": "^2.0"
+                "phpunit/phpunit": "^9.0",
+                "sebastian/phpcpd": "^6.0",
+                "squizlabs/php_codesniffer": "^3.0"
             },
             "type": "library",
             "autoload": {
@@ -8882,13 +9288,12 @@
                 }
             ],
             "description": "A PHP client for interacting with a Fedora 4 server.",
-            "homepage": "https://github.com/islandora-claw/chullo",
+            "homepage": "https://github.com/Islandora/chullo",
             "support": {
-                "irc": "irc://irc.freenode.net/islandora",
-                "issues": "https://github.com/islandora-claw/CLAW/issues",
-                "source": "https://github.com/Islandora/chullo/tree/1.0.0"
+                "issues": "https://github.com/Islandora/documentation/issues",
+                "source": "https://github.com/Islandora/chullo/tree/1.2.0"
             },
-            "time": "2018-11-21T19:33:53+00:00"
+            "time": "2021-05-05T17:38:36+00:00"
         },
         {
             "name": "islandora/controlled_access_terms",
@@ -8953,21 +9358,21 @@
         },
         {
             "name": "islandora/crayfish-commons",
-            "version": "2.x-dev",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora/Crayfish-Commons.git",
-                "reference": "608808530c1fb280f4f35011be6dc8323a34b501"
+                "reference": "1d4f645764154b165e3bc897724e12d23144867d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Islandora/Crayfish-Commons/zipball/608808530c1fb280f4f35011be6dc8323a34b501",
-                "reference": "608808530c1fb280f4f35011be6dc8323a34b501",
+                "url": "https://api.github.com/repos/Islandora/Crayfish-Commons/zipball/1d4f645764154b165e3bc897724e12d23144867d",
+                "reference": "1d4f645764154b165e3bc897724e12d23144867d",
                 "shasum": ""
             },
             "require": {
                 "doctrine/dbal": "~2.2",
-                "islandora/chullo": "^1",
+                "islandora/chullo": "1.2.0",
                 "monolog/monolog": "^1.22",
                 "namshi/jose": "^7.2",
                 "pimple/pimple": "~3.0",
@@ -8984,7 +9389,6 @@
                 "sebastian/phpcpd": "^6.0",
                 "squizlabs/php_codesniffer": "^3.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -9011,9 +9415,9 @@
             "homepage": "https://github.com/Islandora/Crayfish-Commons",
             "support": {
                 "issues": "https://github.com/Islandora/documentation/issues",
-                "source": "https://github.com/Islandora/Crayfish-Commons/tree/2.x"
+                "source": "https://github.com/Islandora/Crayfish-Commons/tree/2.0.0"
             },
-            "time": "2021-10-05T18:45:36+00:00"
+            "time": "2021-07-14T13:39:59+00:00"
         },
         {
             "name": "islandora/islandora",
@@ -9153,20 +9557,23 @@
         },
         {
             "name": "islandora/islandora_install_profile_demo",
-            "version": "dev-bd-d9-update-dependencies-fix",
+            "version": "dev-bd-d9-update",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
-                "reference": "8aa9964b8f5ccc81d10e80a06c7976dfe96b0760"
+                "reference": "d8b7b61ede36a8343f0494bf551067f9c88682f4"
             },
             "require": {
                 "composer/installers": "^1.9",
                 "cweagans/composer-patches": "^1.7",
+                "drupal/addtoany": "^1.9",
                 "drupal/admin_toolbar": "^3.0",
                 "drupal/adminimal_theme": "^1.6",
                 "drupal/auto_entitylabel": "^3.0@beta",
                 "drupal/backup_migrate": "^5.0",
+                "drupal/block_class": "^1.2",
                 "drupal/bootstrap_barrio": "^5.5",
+                "drupal/condition_query": "^1.2",
                 "drupal/conditional_fields": "4.0.0-alpha1",
                 "drupal/config_distro_filter": "1.0-alpha4",
                 "drupal/config_ignore": "^3.0",
@@ -9184,7 +9591,10 @@
                 "drupal/facets": "^1.8",
                 "drupal/features": "^3.11",
                 "drupal/file_download_link": "^1.1",
+                "drupal/fixed_block_content": "^1.1",
                 "drupal/fontawesome": "^2.17",
+                "drupal/form_options_attributes": "^1.2",
+                "drupal/formatter_suite": "^1.3",
                 "drupal/groupmedia": "2.x-dev",
                 "drupal/jwt": "1.0.0-rc1",
                 "drupal/layout_library": "1.0.0-beta2",
@@ -9207,6 +9617,7 @@
                 "drupal/search_api_solr": "^4.2",
                 "drupal/simple_sitemap": "^3.19",
                 "drupal/svg_image_field": "^2.0",
+                "drupal/term_condition": "^2.0",
                 "drupal/title_field_for_manage_display": "^2.0",
                 "drupal/tmgmt": "^1.12",
                 "drupal/tmgmt_google": "^1.1",
@@ -9256,7 +9667,7 @@
                 }
             ],
             "description": "Collection of Islandora D8 Profiles",
-            "time": "2021-11-18T18:36:33+00:00"
+            "time": "2021-11-18T19:56:12+00:00"
         },
         {
             "name": "islandora/islandora_starter_theme",
@@ -12544,30 +12955,28 @@
         },
         {
             "name": "stomp-php/stomp-php",
-            "version": "4.2.2",
+            "version": "4.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stomp-php/stomp-php.git",
-                "reference": "c1118c1e661a9e179f251ea89f14e28a65f6843d"
+                "reference": "d55ba2b2c3ce0e3074b3aa15de1151fd13bb84e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stomp-php/stomp-php/zipball/c1118c1e661a9e179f251ea89f14e28a65f6843d",
-                "reference": "c1118c1e661a9e179f251ea89f14e28a65f6843d",
+                "url": "https://api.github.com/repos/stomp-php/stomp-php/zipball/d55ba2b2c3ce0e3074b3aa15de1151fd13bb84e4",
+                "reference": "d55ba2b2c3ce0e3074b3aa15de1151fd13bb84e4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.0"
+                "php": "^5.6 || ^7.0"
             },
             "require-dev": {
-                "phpmd/phpmd": "2.*",
-                "phpunit/phpunit": "4.*",
-                "squizlabs/php_codesniffer": "2.*"
+                "phpunit/phpunit": "^5.7"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Stomp\\": "src/Stomp/"
+                    "Stomp\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -12605,7 +13014,17 @@
                 "issues": "https://github.com/stomp-php/stomp-php/issues",
                 "source": "https://github.com/stomp-php/stomp-php/tree/master"
             },
-            "time": "2017-06-11T09:41:09+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/jmglsn",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/staabm",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-06-15T18:01:49+00:00"
         },
         {
             "name": "symfony-cmf/routing",
@@ -16687,5 +17106,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.0.0"
 }
