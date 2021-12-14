@@ -14,8 +14,8 @@ field_name: field_file_size
 entity_type: media
 type: integer
 settings:
-  unsigned: true
-  size: big
+  unsigned: false
+  size: normal
 module: core
 locked: false
 cardinality: 1
