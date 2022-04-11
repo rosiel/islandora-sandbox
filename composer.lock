@@ -9726,7 +9726,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
-                "reference": "f3379012d6e3fdbee171c9b12a2724c2106d44da"
+                "reference": "f80b7ebfce8aa5506f60a3368377e9ed4a789127"
             },
             "require": {
                 "composer/installers": "^1.9",
@@ -9795,7 +9795,7 @@
                 "drupal/views_exposed_filter_blocks": "^1.0",
                 "drupal/views_field_view": "^1.0@beta",
                 "drupal/views_flipped_table": "^1.4",
-                "drush/drush": "^10.5",
+                "drush/drush": "10.6.2",
                 "islandora-rdm/islandora_fits": "dev-8.x-1.x",
                 "islandora/controlled_access_terms": "2.x-dev",
                 "islandora/islandora_base_theme": "dev-main",
@@ -9827,12 +9827,12 @@
                 },
                 {
                     "name": "Hertzel Armengol",
-                    "role": "Owner",
+                    "role": "Author",
                     "email": "hertzel@born-digital.com"
                 }
             ],
             "description": "Collection of Islandora D8 Profiles",
-            "time": "2022-04-07T21:58:31+00:00"
+            "time": "2022-04-11T00:13:23+00:00"
         },
         {
             "name": "islandora/islandora_starter_theme",
