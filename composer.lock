@@ -9796,7 +9796,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
-                "reference": "de0c95ecea669213757d8c34b13b032a7ff0ebce"
+                "reference": "f80367c3250aaab9b4c3b459a8012d2d35f22c45"
             },
             "require": {
                 "composer/installers": "^1.9",
@@ -9903,7 +9903,7 @@
                 }
             ],
             "description": "Collection of Islandora D8 Profiles",
-            "time": "2022-04-11T00:55:38+00:00"
+            "time": "2022-04-11T01:12:59+00:00"
         },
         {
             "name": "islandora/islandora_starter_theme",
