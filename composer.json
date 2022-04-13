@@ -4,20 +4,19 @@
     "description": "Islandora project to deploy with demo install profile.",
     "repositories" : [
         {
-                "type": "vcs",
-                "url": "https://github.com/Islandora-Devops/islandora_base_theme.git",
+            "type": "vcs",
+            "url": "https://github.com/Islandora-Devops/islandora_base_theme.git",
             "no-api": true
-            },
-
+        },
         {
             "type": "vcs",
             "url": "https://github.com/Islandora-Devops/islandora_starter_theme.git",
-	    "no-api": true
+	        "no-api": true
         },
         {
             "type": "git",
             "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
-	    "no-api": true
+	        "no-api": true
         },
         {
             "type": "composer",
@@ -30,7 +29,7 @@
         {
             "type": "vcs",
             "url": "https://github.com/mjordan/islandora_workbench_integration.git",
-	    "no-api": true
+	        "no-api": true
         },
         {
             "type": "package",
@@ -80,7 +79,7 @@
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
-        "islandora/islandora_install_profile_demo": "dev-main",
+        "islandora/islandora_install_profile_demo": "dev-april-config-reconciliation",
         "library/pdf.js": "2.4.456",
         "symfony/string": "^5.4"
     },
