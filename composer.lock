@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e793b0f13f6425dfc258d5817bb6c31c",
+    "content-hash": "2fabcde8f512a14e2dfd072bbd4f839c",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -9793,11 +9793,11 @@
         },
         {
             "name": "islandora/islandora_install_profile_demo",
-            "version": "dev-main",
+            "version": "dev-2052-take-2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Islandora-Devops/islandora_install_profile_demo.git",
-                "reference": "8d3908059b5abf9779ea2e7afd502498a99cc601"
+                "url": "https://github.com/rosiel/islandora_install_profile_demo.git",
+                "reference": "9645c7ffb28c4de9764e7afddf54b87ba5053449"
             },
             "require": {
                 "composer/installers": "^1.9",
@@ -9887,7 +9887,6 @@
                 "drupal/twig_xdebug": "^1.2",
                 "phpspec/prophecy-phpunit": "^2"
             },
-            "default-branch": true,
             "type": "drupal-profile",
             "license": [
                 "GPL-2.0-or-later"
@@ -9905,7 +9904,7 @@
                 }
             ],
             "description": "Collection of Islandora D8 Profiles",
-            "time": "2022-08-03T16:50:36+00:00"
+            "time": "2022-08-09T19:20:29+00:00"
         },
         {
             "name": "islandora/islandora_starter_theme",
