@@ -3876,26 +3876,29 @@
         },
         {
             "name": "drupal/context",
-            "version": "dev-4.x",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/context.git",
-                "reference": "86f2ca419bc0d89bc38541283e48bbfd622486e2"
+                "reference": "8.x-4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/context-8.x-4.1.zip",
+                "reference": "8.x-4.1",
+                "shasum": "5cfee680f7299d82b584502479c85566bb4285c1"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-4.x": "4.x-dev"
-                },
                 "drupal": {
-                    "version": "8.x-4.1+13-dev",
-                    "datestamp": "1662386887",
+                    "version": "8.x-4.1",
+                    "datestamp": "1628187190",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 }
             },
@@ -9810,7 +9813,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/rosiel/islandora_install_profile_demo.git",
-                "reference": "ed7baba89a9868fcc7187449ce8d2b8ce556b209"
+                "reference": "edf2319206c84299ea40c0bcfdbd83bd46ea8763"
             },
             "require": {
                 "composer/installers": "^1.9",
@@ -9833,7 +9836,7 @@
                 "drupal/config_suite": "^2.0",
                 "drupal/config_update": "^1.7",
                 "drupal/console": "dev-master",
-                "drupal/context": "4.x-dev#14c362a5c57457692cdb1335c24619e6ae76af94",
+                "drupal/context": "^4.1",
                 "drupal/devel": "^4.1",
                 "drupal/ds": "^3.13",
                 "drupal/environment_indicator": "^4.0",
@@ -9917,7 +9920,7 @@
                 }
             ],
             "description": "Collection of Islandora D8 Profiles",
-            "time": "2022-11-30T23:34:46+00:00"
+            "time": "2022-12-01T16:38:51+00:00"
         },
         {
             "name": "islandora/islandora_starter_theme",
